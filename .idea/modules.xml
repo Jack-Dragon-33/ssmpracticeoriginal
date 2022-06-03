@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-component/hkcrowdfunding-admin-component.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-component/hkcrowdfunding-admin-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-entity/hkcrowdfunding-admin-entity.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-entity/hkcrowdfunding-admin-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-parent.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-reverse/hkcrowdfunding-admin-reverse.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-reverse/hkcrowdfunding-admin-reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-until/hkcrowdfunding-admin-until.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-until/hkcrowdfunding-admin-until.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-webui/hkcrowdfunding-admin-webui.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-webui/hkcrowdfunding-admin-webui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-api/hkcrowdfunding-member-api.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-api/hkcrowdfunding-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-authentication-consumer/hkcrowdfunding-member-authentication-consumer.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-authentication-consumer/hkcrowdfunding-member-authentication-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-entity/hkcrowdfunding-member-entity.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-entity/hkcrowdfunding-member-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-eureka/hkcrowdfunding-member-eureka.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-eureka/hkcrowdfunding-member-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-mysql-proivder/hkcrowdfunding-member-mysql-proivder.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-mysql-proivder/hkcrowdfunding-member-mysql-proivder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-order-consumer/hkcrowdfunding-member-order-consumer.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-order-consumer/hkcrowdfunding-member-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-parent.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-pay-consumer/hkcrowdfunding-member-pay-consumer.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-pay-consumer/hkcrowdfunding-member-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-project-consumer/hkcrowdfunding-member-project-consumer.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-project-consumer/hkcrowdfunding-member-project-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-redis-provider/hkcrowdfunding-member-redis-provider.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-redis-provider/hkcrowdfunding-member-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-zuul/hkcrowdfunding-member-zuul.iml" filepath="$PROJECT_DIR$/hkcrowdfunding-member-parent/hkcrowdfunding-member-zuul/hkcrowdfunding-member-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-test/spring-boot-test.iml" filepath="$PROJECT_DIR$/spring-boot-test/spring-boot-test.iml" />
+    </modules>
+  </component>
+</project>

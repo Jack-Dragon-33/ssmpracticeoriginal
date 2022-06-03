@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/hkcrowdfunding-admin-parent/hkcrowdfunding-admin-webui" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hkcrowdfunding-admin-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/hkcrowdfunding-admin-until/pom.xml" />
+        <option value="$PROJECT_DIR$/hkcrowdfunding-admin-reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/hkcrowdfunding-admin-parent/spring-boot-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
+        <option value="$PROJECT_DIR$/hkcrowdfunding-member-parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
