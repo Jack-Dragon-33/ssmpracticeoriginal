@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+    <context:property-placeholder location="classpath:druid.properties"/>
+    <context:component-scan base-package="com.hk"/>
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${driverClassname}"/>
+        <property name="username" value="${username1}"/>
+        <property name="password" value="${password}"/>
+        <property name="url" value="${url}"/>
+    </bean>
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:Mybatis/mybaties.xml"/>
+        <property name="mapperLocations" value="classpath:Mybatis/mapper/*.xml"/>
+        <property name="plugins" >
+            <array>
+               <bean class="com.github.pagehelper.PageHelper">
+                   <property name="properties">
+                       <props>
+<!--                           配置使用的数据库的方言-->
+                           <prop key="dialect">mysql</prop>
+<!--                           配置页码的合理化修正-->
+                           <prop key="reasonable">true</prop>
+                       </props>
+                   </property>
+               </bean>
+            </array>
+        </property>
+    </bean>
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.hk.crowd.mapper"/>
+    </bean>
+    
+</beans>

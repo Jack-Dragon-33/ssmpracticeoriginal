@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: hk-crowd-project
+  redis:
+    host: 192.168.200.130
+  session:
+    store-type: redis
+server:
+  port: 5000
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:1000/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI5t98ort4U5wYZAvA8GEG
+    access-key-secret: bqbK2Z4VgkHvgcEKzOIVHIvNUcYEsx
+    bucket-domain: http://hkdragon.oss-cn-beijing.aliyuncs.com
+    bucket-name: hkdragon
+    end-point: http://oss-cn-beijing.aliyuncs.com

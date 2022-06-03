@@ -1,0 +1,25 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: hk-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  redis:
+    host: 192.168.200.130
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+short:
+  message:
+    host: https://jnlzsms.market.alicloudapi.com
+    path: /lundroid/smsSend
+    method: GET
+    appCode: d6520a3109414249aafadf0cdcb408da
+    templateId: SMS_75800186
+

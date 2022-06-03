@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "showMessage",
+      "type": "java.lang.String",
+      "description": "Description for showMessage."
+  }
+] }

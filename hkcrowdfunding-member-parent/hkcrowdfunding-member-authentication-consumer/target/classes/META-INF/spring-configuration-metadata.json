@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "short.message",
+      "type": "com.hk.crowd.config.ShortMessageProperties",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "short.message.app-code",
+      "type": "java.lang.String",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.host",
+      "type": "java.lang.String",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.method",
+      "type": "java.lang.String",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.path",
+      "type": "java.lang.String",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    },
+    {
+      "name": "short.message.template-id",
+      "type": "java.lang.String",
+      "sourceType": "com.hk.crowd.config.ShortMessageProperties"
+    },
+    {
+      "name": "showMessage",
+      "type": "java.lang.String",
+      "description": "Description for showMessage."
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hk-crowd-order
+  redis:
+    host: 192.168.200.130
+  session:
+    store-type: redis
+server:
+  port: 6000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
